@@ -21,6 +21,12 @@ Er nutzt eine kontrollierte Redox-Reaktion zwischen **Magnesiumhydrid (MgH₂)**
 
 ---
 
+📦 **Modulerweiterung:**
+- [SOEC-Modul – Hochtemperatur-Elektrolyse (Details)](./SOEC.md)
+
+---
+
+
 ### 📂 Inhalte
 
 - `TRF-RgW_OpenSource_Dossier.pdf` – Offizielle Erstveröffentlichung (19.04.2025)
