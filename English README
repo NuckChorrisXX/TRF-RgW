@@ -1,0 +1,56 @@
+# TRF-RgW  
+Official Open-Source Reactor Project TRF-RgW: Thermochemical Reactor with Solid Oxide Reduction and Coupled Thermal Recirculation. Energy-autonomous, solid-state-based, DIY-friendly. Freely available under CC BY-NC-SA 4.0.
+
+# TRF-RgW – Open Energy Reactor
+
+**Thermochemical Reactor with Solid Oxide Reduction and Coupled Thermal Feedback**
+
+---
+
+### 🧪 What is it?
+
+TRF-RgW is a fully solid-state, closed reactor for self-sufficient energy generation.
+
+It uses a controlled redox reaction between **magnesium hydride (MgH₂)** and **copper(II) oxide (CuO)** to generate heat, which is then converted into electricity via **thermoelectric generators (TEGs)**.
+
+- No pressure, no moving parts  
+- Only **hydrogen and oxygen** as energy media  
+- Includes waste heat utilization & steam output  
+- Just heat, no flame – no ignition required
+
+---
+
+📦 **Modular Extension:**
+- [SOEC Module – High-Temperature Electrolysis (Details)](./SOEC.md)
+
+---
+
+### 📂 Contents
+
+- `TRF-RgW_OpenSource_Dossier.pdf` – Official first release (2025-04-19)  
+- `CAD/` – Coming soon: 3D models and STEP files for replication  
+- `docs/` – Technical explanations and reaction documentation
+
+---
+
+### 📜 License
+
+This project is licensed under the [Creative Commons BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+- Free to use and modify  
+- Non-commercial use only  
+- Attribution required: **Frank Robert Poppe**
+
+---
+
+### 🙌 Want to contribute?
+
+Want to help improve or document the project?  
+→ Fork it or open an issue.
+
+This project is **Open Hardware** – for everyone who never wants to pay an electricity bill again.
+
+---
+
+> “Energy is not a product – it is a human right.”  
+> — Frank Robert Poppe
