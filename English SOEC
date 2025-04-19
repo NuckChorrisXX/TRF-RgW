@@ -1,0 +1,24 @@
+### 🔬 Extension: High-Temperature Electrolysis Module (SOEC)
+
+The TRF-RgW system can optionally be expanded with a high-temperature electrolysis unit based on SOEC technology (Solid Oxide Electrolysis Cell). This add-on module enables the electrochemical splitting of steam or CO₂ at temperatures between 600 °C and 850 °C – ideally matched to the existing process heat from the MgH₂ reactor core.
+
+#### Advantages of the SOEC approach in the TRF-RgW context:
+
+- ✅ Utilizes available waste heat to activate electrolysis (thermally recirculated)
+- ✅ Produces pure H₂ or O₂ without moving parts (fully compatible with solid-state design)
+- ✅ Supplementary hydrogen production for reactor recharging or storage
+- ✅ Enables a closed oxygen cycle within the internal CuO module
+
+#### Possible use cases:
+
+- 🔄 Hydrogen recovery during surplus operation (for intermediate storage in the MgH₂ module)
+- ♻️ Regeneration of CuO-based oxygen capture via targeted O₂ extraction
+- 🔌 Powered by locally generated electricity (e.g., from thermoelectric generators) → enables fully autonomous operation
+
+#### Technical notes:
+
+- The SOEC module is based on ceramic electrolytes (e.g., YSZ) with nickel and lanthanum electrodes.
+- Integration requires only minimal structural additions – e.g., a heated chamber with steam inlet and power connection.
+- With proper layout, heat losses from the reactor can simultaneously drive the SOEC system.
+
+> ⚠️ Note: This add-on module is optional and currently in the experimental phase. Thermal coupling is passive via the reactor’s heat distribution – no active heating elements are required.
