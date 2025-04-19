@@ -23,7 +23,7 @@ Er nutzt eine kontrollierte Redox-Reaktion zwischen **Magnesiumhydrid (MgH₂)**
 
 📦 **Modulerweiterung:**
 - [SOEC-Modul – Hochtemperatur-Elektrolyse (Details)](./SOEC.md)
-
+- damit kann das system geschlossen und autark arbeiten!
 ---
 
 
