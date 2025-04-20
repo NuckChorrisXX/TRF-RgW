@@ -1,0 +1,75 @@
+# 🔁 Regeneration von MgH₂ im TRF-RgW-Reaktor (drucklos, geschlossen, festkörperbasiert)
+
+## 🧩 Ziel:
+Magnesium soll nach der Wasserstofffreisetzung wieder in Magnesiumhydrid (MgH₂) umgewandelt werden –  
+**vollständig ohne Druck**, **ohne bewegliche Teile**, **innerhalb eines geschlossenen modularen Systems**.
+
+---
+
+## ⚙️ Reaktionsprinzip:
+
+    Mg (fest) + H₂ (gasförmig) → MgH₂ (fest)     [bei ~350 °C]
+
+Diese Reaktion ist reversibel und funktioniert drucklos, wenn:
+- reiner Wasserstoff in ausreichender Menge vorhanden ist
+- die Temperatur hoch genug ist (~350–400 °C)
+- Sauerstoff vollständig ausgeschlossen wird
+
+---
+
+## 🧱 Modulübersicht (TRF-RgW):
+
+| Modul               | Funktion                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| 🟦 MgH₂-Kammer       | Enthält Mg / MgH₂. Wird auf 350–400 °C erhitzt, um Mg mit H₂ reagieren zu lassen |
+| 🟥 H₂-Erzeugermodul  | Gibt H₂-Gas frei – feststoffbasiert, drucklos (z. B. NaBH₄, AlH₃, SOEC)       |
+| 🟨 Thermokopplung     | Führt Wärme passiv aus CuO-Modul oder TEG-Rückleitung zur Mg-Kammer          |
+
+---
+
+## 🔄 Schritt-für-Schritt-Ablauf:
+
+1. **Entladezustand:**  
+   Nach der H₂-Freisetzung liegt im Mg-Modul nur noch metallisches Magnesium vor.
+
+2. **Erhitzung:**  
+   Das Mg-Modul wird auf ~350 °C gebracht (z. B. durch Wärmerückführung vom CuO-Modul oder reaktor selbst).
+
+3. **H₂-Freisetzung:**  
+   Ein feststoffbasiertes Modul (z. B. NaBH₄ + H₂O, LiAlH₄, oder SOEC) setzt reines H₂-Gas frei – ohne Drucktank nur hitze die wir schon vom reaktor haben
+
+4. **Gasleitung:**  
+   Das H₂ strömt bei Atmosphärendruck direkt in das heiße Mg-Modul. Keine Pumpen nötig.
+
+5. **Regeneration:**  
+   Das H₂ reagiert mit dem Magnesium zu MgH₂.  
+   Der Zyklus ist damit abgeschlossen – das Modul ist wieder geladen.
+
+---
+
+## 📦 Bedingungen für erfolgreiche Regeneration:
+
+| Parameter         | Zielwert                      |
+|------------------|-------------------------------|
+| Temperatur        | 350–400 °C                    |
+| H₂-Druck          | Atmosphärendruck (1 atm)      |
+| H₂-Reinheit       | Hochrein, trocken, sauerstofffrei |
+| Sauerstoff        | Muss vollständig ausgeschlossen sein CuO-Filter oder änliches, vielleicht sogar um das CuO-modul zum "laden" |
+| Modulanordnung    | Geschlossen, modular, feststoffbasiert, ohne bewegliche Teile |
+
+---
+
+## 🔋 Drucklose H₂-Quellen für das System:
+
+| Substanz      | Reaktion                                  | Temperatur |
+|---------------|--------------------------------------------|------------|
+| NaBH₄         | NaBH₄ + H₂O → NaBO₂ + 4 H₂                 | 70–100 °C  |
+| LiAlH₄        | 4 LiAlH₄ → LiH + Al + 3 H₂                 | 150–250 °C |
+| MgH₂ (externe Quelle) | MgH₂ → Mg + H₂ (für internen Kreislauf) | ~350 °C    |
+| SOEC (Keramikzelle)   | H₂O → H₂ + ½O₂ (festkörperbasiert)        | 700–850 °C |
+
+---
+
+## ✅ Zusammenfassung (Essenz in einem Satz):
+
+> **Im TRF-RgW-Reaktor wird MgH₂ regeneriert, indem reiner Wasserstoff aus einem feststoffbasierten Modul bei Atmosphärendruck in eine auf 350 °C erhitzte Magnesiumkammer geleitet wird, wo er ohne Druck und ohne bewegliche Teile festkörperbasiert zu MgH₂ zurückreagiert.**
